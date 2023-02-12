@@ -44,7 +44,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
 
     if (newWithdrawAmount > previousBalanceTotal) {
         alert('Baap er bank e eto taka nai');
-        return;
+        break;
     }
 
     // step-4
